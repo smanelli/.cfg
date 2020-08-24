@@ -10,7 +10,7 @@ do
 	
 	if [ $? -eq 0 ]; then
 #		echo "starting"
-		imwheel $1 &
+		imwheel "$@" &
 		exit 0
 	fi
    	sleep 1
