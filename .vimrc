@@ -24,7 +24,11 @@ elseif exists("+termguicolors")
     set background=dark
     set t_Co=256
 
-    colorscheme desert 
+    colorscheme industry 
+    set background=dark
+"    packadd! dracula
+"    syntax enable
+"    colorscheme dracula
 
 elseif &t_Co < 256
     colorscheme blue 
@@ -53,7 +57,6 @@ set relativenumber
 
 " Always show the status line at the bottom, even if you only have one window open.
 set laststatus=2
-
 " The backspace key has slightly unintuitive behavior by default. For example,
 " by default, you can't backspace before the insertion point set with 'i'.
 " This configuration makes backspace behave more reasonably, in that you can
